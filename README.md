@@ -8,6 +8,7 @@ Prerequisites
 * An SSH client (e.g., Terminal on macOS/Linux, PuTTY on Windows).
 * A web application (in my case, a website packaged as a zip file).
 * AWS Region and Availability Zone: (Specify the region and AZ)
+* Lugx Gaming Website Template (Website or webapp files of your choice) 
 
 Steps
 1. Connect to the EC2 Instance via SSH
