@@ -11,7 +11,7 @@ Prerequisites
 
 Steps
 1. Connect to the EC2 Instance via SSH
-   * Use the following command in your terminal:
+   * Use the following command in your terminal
 	ssh -i /path/to/your/private_key.pem your_ec2_username@your_ec2_public_ip_or_dns
 
    * Replace the placeholders with your actual private key file path, EC2 username, and public IP address or DNS name.
@@ -34,7 +34,7 @@ Steps
 
 	sudo systemctl start httpd
 
-      * Enable Apache to start automatically on boot:
+      * Enable Apache to start automatically on boot
 
 	sudo systemctl enable httpd
 
@@ -50,7 +50,7 @@ Steps
 
 	ssh -i /path/to/your/private_key.pem your_ec2_username@your_ec2_public_ip_or_dns
 
-      * Extract the uploaded zip file:
+      * Extract the uploaded zip file
 
 	cd /home/ec2-user/
 
@@ -62,7 +62,7 @@ Steps
 
 	sudo mv * /var/www/html/
 
-      * Set the correct file ownership:
+      * Set the correct file ownership
 
 	sudo chown -R ec2-user:ec2-user /var/www/html
 
@@ -71,7 +71,7 @@ Steps
 	rm -f temp.zip
 
 7. Configure Security Group
-      * In the AWS Management Console, configure the security group associated with your EC2 instance to allow inbound HTTP traffic on port 80. This allows users to access your 	web application through a web browser.
+      * In the AWS Management Console, configure the security group associated with your EC2 instance to allow inbound HTTP traffic on port 80. This allows users to access your web application through a web browser.
                   
 8. Access the Web Application
       * Open a web browser and enter the public IP address or public DNS name of your EC2 instance. Your web application should now be live.
