@@ -34,7 +34,7 @@ Steps
 
 	sudo systemctl start httpd
 
-      * Enable Apache to start automatically on boot
+ 	* Enable Apache to start automatically on boot:
 
 	sudo systemctl enable httpd
 
@@ -62,7 +62,7 @@ Steps
 
 	sudo mv * /var/www/html/
 
-      * Set the correct file ownership
+      * Set the correct file ownership:
 
 	sudo chown -R ec2-user:ec2-user /var/www/html
 
